@@ -1,0 +1,108 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-15T11:47:35.988Z",
+        "line": 3,
+        "name": "To verify registration desk functionality",
+        "description": "",
+        "id": "to-validate-registration-desk;to-verify-registration-desk-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23699059100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "To launch any browser and url of application",
+            "match": {
+              "location": "RegistrationDesk.to_launch_any_browser_and_url_of_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 416571700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "To pass valid credentials in email and password field",
+            "match": {
+              "location": "RegistrationDesk.to_pass_valid_credentials_in_email_and_password_field()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2900555800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "To pick any location and click on Login and verify user redirected to dashboard",
+            "match": {
+              "location": "RegistrationDesk.to_pick_any_location_and_click_on_Login_and_verify_user_redirected_to_dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 16502531900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "To click patient register menu and fill all details in demographics and contact info",
+            "match": {
+              "location": "RegistrationDesk.to_click_patient_register_menu_and_fill_all_details_in_demographics_and_contact_info()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 44689926900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "To confirm start visit then attaching problems then verifying successfully attached message and ending visit",
+            "match": {
+              "location": "RegistrationDesk.to_confirm_start_visit_then_attaching_problems_then_verifying_successfully_attached_message_and_ending_visit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24598784800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "To visit again for body bmi calculation",
+            "match": {
+              "location": "RegistrationDesk.to_visit_again_for_body_bmi_calculation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6902491900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "To add past visit and delete the records",
+            "match": {
+              "location": "RegistrationDesk.to_add_past_visit_and_delete_the_records()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "To Validate Registration Desk",
+    "description": "",
+    "id": "to-validate-registration-desk",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/RegistrationDesk.feature",
+    "tags": []
+  }
+]
